@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f9f7fe;
+}
+
+.container {
+  padding: 10px 6%;
+}
+.container__nav-bar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container__nav-bar-menu ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  list-style: none;
+  font-size: "Poppins", sans-serif;
+}
+.container__nav-bar-menu ul li a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+  line-height: 42px;
+  font-size: 18px;
+  font-size: "Poppins", sans-serif;
+}
+.container__nav-bar-menu ul li a:hover {
+  color: #6c63ff;
+  cursor: pointer;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.about {
+  color: #6c63ff;
+}
+
+.codes {
+  position: absolute;
+  top: 21.2px;
+  font-weight: bolder;
+  font-size: "Poppins", sans-serif;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.main-section__header1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+}
+.main-section__header2 {
+  padding: 16px;
+  font-size: 44px;
+}
+.main-section__header3 {
+  font-size: "Poppins", sans-serif;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 24px;
+  margin-left: 30PX;
+}
+
+.click {
+  border-radius: 4px;
+  padding: 15px 40px;
+  margin-left: 100px;
+  border: none;
+  background-color: #6c63ff;
+  margin-top: 16px;
+}
+.click:hover {
+  cursor: pointer;
+  background-color: #f9f7fe;
+}
+
+.click a {
+  text-decoration: none;
+  color: #f9f7fe;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.section1 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 40px;
+  background-color: white;
+  box-shadow: #000 1px solid;
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  padding: 16px;
+}
+.main__h1 {
+  font-size: 90px;
+  font-style: "Playfair Display", serif;
+  padding: 40px;
+}
+.main__p {
+  padding: 20px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.main__details {
+  background-color: white;
+  box-shadow: #000 1px solid;
+}
+
+.click1 {
+  padding: 30px 80px;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  margin-left: 170px;
+  margin-top: 50px;
+}
+
+.click1 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-size: "Poppins", sans-serif;
+}
+.click1 a:hover {
+  cursor: pointer;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 80px 40px;
+  background-color: white;
+  box-shadow: #000 1px solid;
+  margin-top: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+.section3__h3 {
+  font-size: 40px;
+  font-style: "Playfair Display", serif;
+}
+.section3__p {
+  font-size: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px;
+}
+.footer__p {
+  font-size: 30px;
+  margin-top: 40px;
+}
+.footer__email {
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.footer__email:hover {
+  color: #6c63ff;
+  cursor: pointer;
+}
+.footer__icons1 {
+  margin-right: 80px;
+}
+.footer__icons1:hover {
+  background-color: #6c63ff;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #f9f7fe;
+  padding: 13px 10px;
+}
+.footer__icons2 {
+  margin-right: 80px;
+}
+.footer__icons2:hover {
+  background-color: #6c63ff;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #f9f7fe;
+  padding: 13px 10px;
+}
+.footer__icons3 {
+  margin-right: 80px;
+}
+.footer__icons3:hover {
+  background-color: #6c63ff;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #f9f7fe;
+  padding: 13px 10px;
+}
+.footer__icons {
+  color: #6c63ff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 80px;
+}
+.footer__icons:hover {
+  color: black;
+  cursor: pointer;
+}
+.footer__icons__icons1 {
+  margin-right: 100px;
+}/*# sourceMappingURL=about.css.map */
